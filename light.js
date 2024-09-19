@@ -3,6 +3,12 @@
 function turnLightOn(lightNumber) {
   var aV = document.getElementById("light");
   aV.src = "images/light/light_" + lightNumber + ".jpg";
-  document.getElementById("message").innerHTML =
+  
+  if (lightNumber === 0) {
+    document.getElementById("message").innerHTML =
+    "light is off";
+  } else {
+    document.getElementById("message").innerHTML =
     "light #" + lightNumber + " is on";
+  }
 }
