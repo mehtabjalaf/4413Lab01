@@ -1,0 +1,38 @@
+<!-- 4413 24f. adapted from intial work of Prof. M B -->
+<!doctype html>
+<html lang="en">
+<head>
+  <title> Light </title>
+  <meta charset="utf-8">
+  
+   <!-- here I am linking the CSS to this HTMl file-->
+  <link rel="stylesheet" href="light.css" type="text/css" >
+  
+  
+</head>
+<body>
+  
+  <!-- here I am linking the JS to this HTMl file-->
+  <script src="light.js"></script>
+
+  <div id="box">
+  <h3 id="message">click button to turn on/off light</h3>
+    <img id="light" src="images/light/light_0.jpg"><br>
+	<!-- add five buttons use <button> </button> -->
+
+
+  <div id="onButtons">
+    <div class="inLine" onclick="lightOneOn()"><button>ON</button></div>
+    <div class="inLine" onclick="lightTwoOn()"><button>ON</button></div>
+    <div class="inLine" onclick="lightThreeOn()"><button>ON</button></div>
+    <div class="inLine" onclick="lightFourOn()"><button>ON</button></div>
+    <div class="inLine" onclick="lightFiveOn()"><button>ON</button></div>
+  </div> 
+
+ 
+	
+	<div id="off"> <button >OFF</button></div>
+  
+  </div> 
+</body>
+</html>

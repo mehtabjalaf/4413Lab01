@@ -1,0 +1,31 @@
+#box {
+     
+    background-color: rgb(255, 255, 255);
+    padding: 10px; padding-top:0px;
+    width: 300px;
+}
+
+
+#box button {
+    width: 55px;
+    padding: 2px;
+}
+
+#off{
+    text-align: center; margin:5px;
+}
+#off button{width:80px}
+
+#onButtons
+{
+    text-align: center;
+}
+.inLine
+{
+    display: inline-block;
+}
+
+#message
+{
+    text-align: center;
+}
