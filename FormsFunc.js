@@ -63,7 +63,7 @@ function formValidation() {
         .toLowerCase()
         .match(
           /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,3}))$/
-        ); // this is the regexpression that is used across the web to check for email format, I modified the end for the lab
+        ); // SELFNOTE this is the regexpression that is used across the web to check for email format, I modified the end for the lab
     }
 
     if (validateEmail(document.getElementById("email").value) == null) {
